@@ -1,3 +1,9 @@
+:root{
+  font-family: "Roboto", sans-serif;
+  line-height: 150%;
+  color: #573A37;
+}
+
 body{
   background-image: urL(./img/bg.jpg); /* adicionando imagem de fundo */
   background-size: cover; /* cobrindo toda área visível */
@@ -14,5 +20,17 @@ body{
 
 img{
   border-radius: 16px; /* deixar as bordas redondas */
-  
+}
+
+h1{
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+h1, h2{
+  color: #291B1A;
 }
