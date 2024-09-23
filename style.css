@@ -1,0 +1,18 @@
+body{
+  background-image: urL(./img/bg.jpg); /* adicionando imagem de fundo */
+  background-size: cover; /* cobrindo toda área visível */
+}
+
+#page{
+  box-sizing: border-box;
+  width: 800px;
+  padding: 24px;
+  background-color: #F0E8C2;
+  border-radius: 24px;
+  margin: 48px auto;
+}
+
+img{
+  border-radius: 16px; /* deixar as bordas redondas */
+  
+}
