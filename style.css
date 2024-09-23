@@ -13,6 +13,11 @@ body{
   background-image: urL(./img/bg.jpg); /* adicionando imagem de fundo */
   background-size: cover; /* cobrindo toda área visível */
 }
+.mainImg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #page{
   box-sizing: border-box;
@@ -20,11 +25,13 @@ body{
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 24px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
 }
 
 img{
   border-radius: 16px; /* deixar as bordas redondas */
+  width: 550px;
+  height: 400px;
 }
 
 main{
@@ -56,4 +63,10 @@ h1, h2{
 
 ul{
   padding-left: 45px;
+}
+
+footer{
+  color: #F0E8C2;
+  text-align: center;
+  padding-bottom: 48px;
 }
